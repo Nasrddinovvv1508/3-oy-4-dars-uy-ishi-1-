@@ -12,6 +12,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
     /* General styles */
     * {
         margin: 0;
@@ -485,8 +492,8 @@
 .master_shopping_title button {
     width: 240px;
     border-radius: 36px;
-    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
     background: -o-linear-gradient(left, #00C97B 0%, #00D981 96.96%);
+    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
     background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
     -webkit-box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
             box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
@@ -586,8 +593,8 @@
 .data button {
     border-radius: 36px;
     border: none;
-    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
     background: -o-linear-gradient(left, #00C97B 0%, #00D981 96.96%);
+    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
     background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
     -webkit-box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
             box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
@@ -728,8 +735,12 @@
 
 .purchases__variants {
     margin-bottom: 49px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .purchases h1 {
@@ -787,8 +798,11 @@
 
 .purchases button {
     border-radius: 36px;
+    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
+    background: -o-linear-gradient(left, #00C97B 0%, #00D981 96.96%);
     background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
-    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+            box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
     padding: 24px 20px;
     width: 240px;
     height: 66px;
@@ -807,9 +821,13 @@
 .hero_container {
     padding-top: 38px;
     padding-bottom: 37px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 75px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 150px;
 }
 
@@ -840,8 +858,11 @@
 
 .title_part button {
     border-radius: 36px;
+    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
+    background: -o-linear-gradient(left, #00C97B 0%, #00D981 96.96%);
     background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
-    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+            box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
     padding: 24px 0px;
     width: 240px;
     height: 66px;
@@ -880,15 +901,20 @@
 
 .clients_frames {
     margin-bottom: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .clients_farmes_items {
     width: 447px;
     border-radius: 16px;
     background: var(--5, #FFF);
-    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+            box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
     padding: 35px 47px 51px 37px;
 }
 
@@ -917,8 +943,11 @@
 
     /* Blogers styles */
 .bloger {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -938,7 +967,10 @@
 .bloger_comment {
     border-radius: 16px;
     background: var(--5, #FFF);
-    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+            box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 38px;
     width: 685px;
@@ -1011,8 +1043,11 @@
     width: 240px;
     height: 66px;
     border-radius: 36px;
+    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
+    background: -o-linear-gradient(left, #00C97B 0%, #00D981 96.96%);
     background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
-    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+            box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
     cursor: pointer;
     margin-top: 40px;
     border: none;
@@ -1050,9 +1085,15 @@
 
 .form_container {
     padding: 66px 0px 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 70px;
 }
 
@@ -1067,8 +1108,12 @@
 
 .input_div {
     width: 513px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 15px;
     padding-top: 23px;
     padding-bottom: 23px;
@@ -1087,6 +1132,38 @@
     outline: none;
 }
 
+.input_div input::-webkit-input-placeholder {
+    color:  rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px; 
+}
+
+.input_div input::-moz-placeholder {
+    color:  rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px; 
+}
+
+.input_div input:-ms-input-placeholder {
+    color:  rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px; 
+}
+
+.input_div input::-ms-input-placeholder {
+    color:  rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px; 
+}
+
 .input_div input::placeholder {
     color:  rgba(255, 255, 255, 0.7);
     font-size: 18px;
@@ -1099,8 +1176,11 @@
     width: 240px;
     height: 66px;
     border-radius: 36px;
+    background: -webkit-gradient(linear, left top, right top, from(#00C97B), color-stop(96.96%, #00D981));
+    background: -o-linear-gradient(left, #00C97B 0%, #00D981 96.96%);
     background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
-    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+            box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
     border: none;
     cursor: pointer;
 
