@@ -1024,3 +1024,26 @@
     font-weight: 700;
     line-height: 18px; /* 105.882% */
 }
+
+     /* UK purchases section  */
+.UK_purchases {
+    margin-bottom: 150px;
+} 
+
+.UK_purchases h2 {
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; 
+}
+
+.UK_purchases p {
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 200% */
+    opacity: 0.9;
+    margin-top: 12px;
+}
